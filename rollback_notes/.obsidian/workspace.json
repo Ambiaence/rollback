@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "47d528c4309ca836",
+    "type": "split",
+    "children": [
+      {
+        "id": "05dfef572aae655f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64b60365232fe80e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4a6466df8a84cec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f1a58177d9808e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO - Send a single input object through asio..md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3694f6a86813d119",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "531e0e44910179a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27234b65c42b0d2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO - Send a single input object through asio..md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "a64976e3458bba46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc74044e381a84a9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "01280f5e85cb6bda",
+    "type": "split",
+    "children": [
+      {
+        "id": "27fef7604fc53c91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2e684fff8d6b691",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7363507854e94613",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ea6766a0671a7750",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f348642cb3b97702",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ab2331a516f102f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6ff1c282c3937e6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TODO - Send a single input object through asio..md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6600d49436b3b327",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TODO - Send a single input object through asio..md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7b261ccf9451dc7f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8c0378d324f01c7c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TODO - Send a single input object through asio..md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "27234b65c42b0d2f",
+  "lastOpenFiles": [
+    "TODO.md",
+    "Questions.md",
+    "Question - Should I use tcp or use a redundant udp message with error checking?.md",
+    "TODO - Send a single input object through asio..md",
+    "Welcome.md"
+  ]
+}
