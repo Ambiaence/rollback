@@ -1,11 +1,11 @@
+#pragma once
 #include <array>
+
 
 typedef unsigned int FrameCounter;
 
-class InputState {
-	public:
-		InputState();
-
+struct InputState {
+		FrameCounter frame;
 		bool left;
 		bool right;
 		bool up;
@@ -14,18 +14,6 @@ class InputState {
 		bool b;
 };
 
-class InputFrame {
-	public:
-		InputFrame();
-		InputFrame(FrameCounter);
-		InputFrame(FrameCounter, InputState);
+typedef std::array<InputState, 300> InputMovie;
 
-		InputState input_state;
-		FrameCounter frame_number;
-};
-
-class InputMovie {
-	public:
-		InputMovie();
-		std::array<InputFrame, 300> input_frames;
-};
+void init_input_state(InputState& input_state);
