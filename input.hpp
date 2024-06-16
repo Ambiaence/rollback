@@ -1,11 +1,8 @@
 #pragma once
 #include <array>
 
-
-typedef unsigned int FrameCounter;
-
 struct InputState {
-		FrameCounter frame;
+		char frame;
 		bool left;
 		bool right;
 		bool up;
