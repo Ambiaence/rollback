@@ -97,7 +97,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Should both players inputs be contigious?.md",
+                "file": "Questions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "846b98518f6c7e34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Should the number of total changes to the input be recorded?.md",
                 "mode": "source",
                 "source": false
               }
@@ -184,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Should both players inputs be contigious?.md",
+                "file": "Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Should both players inputs be contigious?.md",
+                "file": "Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Should both players inputs be contigious?.md"
+                "file": "Questions.md"
               }
             }
           }
@@ -247,6 +259,7 @@
   },
   "active": "30ceb0cdd8dc19ee",
   "lastOpenFiles": [
+    "Should the number of total changes to the input be recorded?.md",
     "Questions.md",
     "Should both players inputs be contigious?.md",
     "Why not both?.md",

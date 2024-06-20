@@ -23,6 +23,27 @@ int main() {
 
 		tcp::socket socket(io_context);
 		asio::connect(socket, endpoints);
+		
+		for (;;) {
+			InputState received_state;
+			std::error_code error_code;
+
+			size_t length =
+				socket.read_some(asio::buffer(received_state), error_code);
+
+			if (error == asio::error::eof)  {
+				std::cout << "Connection closed";
+				break;
+			}
+
+			if (error_code) {
+				throw std::system_error(error_code);
+			}
+			
+			std::cout << "Left = " << received_state.left << '\n';
+		}
+
+
 
 	} catch (std::exception& e) {
 		std::cout << e.what() << std::endl;
