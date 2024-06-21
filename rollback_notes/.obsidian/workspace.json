@@ -80,6 +80,18 @@
             }
           },
           {
+            "id": "6f4cf8d5876defec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "What sort of game lends itself to showing off rollback?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "522a901422490f9d",
             "type": "leaf",
             "state": {
@@ -104,6 +116,78 @@
             }
           },
           {
+            "id": "3a0f601e04dfccd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Should I even store more than one full input frame?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c7f2271f5214add",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Should the number of total changes to the input be recorded?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd856853d668c95b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Should both players inputs be contigious?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1645713bde3b19c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Why not both?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "921f5f3f39efc34e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Why not both?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3405621f99d6402e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Question - Should I use tcp or use a redundant udp message with error checking?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "846b98518f6c7e34",
             "type": "leaf",
             "state": {
@@ -116,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
         "id": "a64976e3458bba46",
@@ -196,7 +280,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Questions.md",
+                "file": "What sort of game lends itself to showing off rollback?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +297,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Questions.md",
+                "file": "What sort of game lends itself to showing off rollback?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +320,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Questions.md"
+                "file": "What sort of game lends itself to showing off rollback?.md"
               }
             }
           }
@@ -257,13 +341,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30ceb0cdd8dc19ee",
+  "active": "6f4cf8d5876defec",
   "lastOpenFiles": [
-    "Should the number of total changes to the input be recorded?.md",
     "Questions.md",
+    "What sort of game lends itself to showing off rollback?.md",
+    "Should I even store more than one full input frame?.md",
+    "Should the number of total changes to the input be recorded?.md",
     "Should both players inputs be contigious?.md",
-    "Why not both?.md",
     "Question - Should I use tcp or use a redundant udp message with error checking?.md",
+    "Why not both?.md",
     "TODO - Send a single input object through asio..md",
     "TODO.md",
     "Welcome.md"

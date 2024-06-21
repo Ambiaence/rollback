@@ -1,4 +1,6 @@
-[[Question - Should I use tcp or use a redundant udp message with error checking?]]
+- [x] [[Question - Should I use tcp or use a redundant udp message with error checking?]]
 [[Why not both?]]
 [[Should both players inputs be contigious?]]
 [[Should the number of total changes to the input be recorded?]]
+[[Should I even store more than one full input frame?]]
+[[What sort of game lends itself to showing off rollback?]]
