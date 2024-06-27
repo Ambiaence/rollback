@@ -3,23 +3,9 @@
 SDL_Renderer* gRenderer;
 SDL_Window* window;
 
-const int SCREEN_WIDTH = 640;
-const int SCREEN_HEIGHT = 320;
 
-void sdlRenderPresent() {
+void present_sdl() {
 	SDL_RenderPresent(gRenderer);
-}
-
-void sdlDrawScreen(unsigned char screen[32][8]) {
-	for (int r = 0; r < 32; r++) {
-		for (int c = 0; c < 64; c++) {
-			if( ( screen[r][c/8] & (0b10000000 >> c%8)) > 0) {
-				drawPixel(c*10, r*10, true);
-			} else {
-				drawPixel(c*10, r*10, false);
-			}
-		}
-	}
 }
 
 void closeSDL() {
@@ -29,14 +15,16 @@ void closeSDL() {
 	window = NULL;
 	SDL_Quit();
 }
+void clear_screen() {
+	SDL_Rect screen_rectangle = {0, 0, SCREEN_WIDTH ,SCREEN_HEIGHT};
+	SDL_SetRenderDrawColor( gRenderer, 0xFF, 0xFF, 0xFF, 0xFF );
+	SDL_RenderFillRect( gRenderer, &screen_rectangle );
+}
 
-void drawPixel(int x, int y, bool value) {
-	SDL_Rect fillRect = {x, y, x+9, y+9};
-	if(value)
-		SDL_SetRenderDrawColor( gRenderer, 0xFF, 0xFF, 0xFF, 0xFF );
-	else
-		SDL_SetRenderDrawColor( gRenderer, 0x00, 0x00, 0x00, 0x00 );
-	SDL_RenderFillRect( gRenderer, &fillRect );
+void draw_rectangle(int x, int y, int height, int width) {
+	SDL_Rect rectangle = {x, y, x+width, y+height};
+	SDL_SetRenderDrawColor( gRenderer, 0x00, 0x00, 0x00, 0x00 );
+	SDL_RenderFillRect( gRenderer, &rectangle );
 }
 
 int initSDL() {

@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string>
 #include <array>
+
 #include "sdl.hpp"
+#include "game.hpp"
 #include "input.hpp"
 
 void print_character_value(char character) {
@@ -9,10 +11,12 @@ void print_character_value(char character) {
 }
 
 int main(int argc, char* argv[]) {
-		
 	SDL_Event sdl_event;
 	int sdl_error = initSDL();
 	bool run = true;
+
+	Match match;
+	Render render;
 
 	if (sdl_error == -1) {
 		std::cout << "Something went wrong with sdl - Ambiaence. " << std::endl;
@@ -24,6 +28,8 @@ int main(int argc, char* argv[]) {
 			if( sdl_event.type == SDL_QUIT ) {
 				run = false;
 			}
+
+			render.draw_frame(match);
 		}
 	}
 

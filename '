@@ -1,0 +1,24 @@
+#include "../sdl.hpp"
+
+Render::Render() {
+	this->render_width = 12;
+	this->screen_height = (SCREEN_HEIGHT/SCREEN_WIDTH)*render_width;
+}
+
+void Render::draw_frame(Match& match) {
+}
+
+ScreenPoint translate_render_point_to_screen_point(float x, float y) {
+	ScreenPoint screen_point;
+	screen_point.y = y; //Same for now
+
+	float ratio = SCREEN_WIDTH/x;
+	screen_point.x = x*ratio + (SCREEN_WIDTH/2)
+
+	return screen_point;
+}
+
+void Render::draw_player(Player& player) {
+	Screenpoint middle_of_playerbuttom_left = translate_render_point_to_screen_point(player.x, player.y)
+	draw_rectangle(
+}

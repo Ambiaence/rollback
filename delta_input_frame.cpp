@@ -15,6 +15,10 @@ DeltaInputFrame::DeltaInputFrame() {
 }
 
 void DeltaInputFrame::add_input(InputIdType id, bool value) {
+	if (inputs.size() > 6) {
+		throw std::invalid_argument("There are already 7 values\n");
+	}
+
 	Input input;
 	input.id = id;
 	input.value = value;
