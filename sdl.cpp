@@ -22,7 +22,11 @@ void clear_screen() {
 }
 
 void draw_rectangle(int x, int y, int height, int width) {
-	SDL_Rect rectangle = {x, y, x+width, y+height};
+	SDL_Rect rectangle; 
+	rectangle.x = x;
+	rectangle.y = y;
+	rectangle.h = height;
+	rectangle.w = width;
 	SDL_SetRenderDrawColor( gRenderer, 0x00, 0x00, 0x00, 0x00 );
 	SDL_RenderFillRect( gRenderer, &rectangle );
 }

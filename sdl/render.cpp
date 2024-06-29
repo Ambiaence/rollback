@@ -6,21 +6,25 @@ Render::Render() {
 }
 
 void Render::draw_frame(Match& match) {
-	draw_player(match.player_one);
-	draw_player(match.player_two);
+	clear_screen();
+	draw_player(*match.player_two);
+	present_sdl();
 }
 
-ScreenPoint translate_render_point_to_screen_point(float x, float y) {
+ScreenPoint Render::translate_render_point_to_screen_point(float x, float y) {
 	ScreenPoint screen_point;
-	screen_point.y = y; //Same for now
+	float horizontal_ratio = SCREEN_WIDTH/20;
+	float vertical_ratio = SCREEN_HEIGHT/horizontal_ratio;
 
-	float ratio = SCREEN_WIDTH/x;
-	screen_point.x = x*ratio + (SCREEN_WIDTH/2);
+	screen_point.y = y*vertical_ratio; //Same for now
+
+	screen_point.x = x*horizontal_ratio + (SCREEN_WIDTH/2);
 
 	return screen_point;
 }
 
 void Render::draw_player(Player& player) {
 	ScreenPoint middle_of_player = translate_render_point_to_screen_point(player.position.x, player.position.y);
-	draw_rectangle(middle_of_player.x, middle_of_player.y, 10, 10);
+	std::cout << middle_of_player.x << " " << middle_of_player.y << '\n';
+	draw_rectangle(middle_of_player.x, middle_of_player.y, 20, 20);
 }

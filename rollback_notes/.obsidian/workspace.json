@@ -44,43 +44,7 @@
             }
           },
           {
-            "id": "14b3f7ee17ba985c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Why use different directories for headers?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c8c7e1f54dc41ad8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "What sort of game lends itself to showing off rollback?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b336c067b480911e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Should I even store more than one full input frame?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4a6466df8a84cec",
+            "id": "484acabc8c73ff86",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,72 +56,12 @@
             }
           },
           {
-            "id": "8f1a58177d9808e5",
+            "id": "18e957d1a9cd0d7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO - Send a single input object through asio..md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3694f6a86813d119",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Should the number of total changes to the input be recorded?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9493607a3984e259",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Should both players inputs be contigious?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "664fa072516c153a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Why not both?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "531e0e44910179a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TODO.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27234b65c42b0d2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Questions.md",
+                "file": "TODO - Player math relative to window.md",
                 "mode": "source",
                 "source": false
               }
@@ -176,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "a64976e3458bba46",
@@ -317,13 +221,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "18f9f71965870fbb",
+  "active": "18e957d1a9cd0d7c",
   "lastOpenFiles": [
     "TODO.md",
+    "Why use different directories for headers?.md",
     "TODO - Player math relative to window.md",
     "Questions.md",
     "Should the render object render primitives or game objects?.md",
-    "Why use different directories for headers?.md",
     "What sort of game lends itself to showing off rollback?.md",
     "Should I even store more than one full input frame?.md",
     "Question - Should I use tcp or use a redundant udp message with error checking?.md",

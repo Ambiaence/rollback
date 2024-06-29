@@ -5,7 +5,6 @@
 const int SCREEN_WIDTH = 640;
 const int SCREEN_HEIGHT = 320;
 
-void sdlRenderPresent();
 void closeSDL();
 void draw_rectangle(int,int,int,int);
 void present_sdl();

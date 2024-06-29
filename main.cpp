@@ -28,7 +28,6 @@ int main(int argc, char* argv[]) {
 			if( sdl_event.type == SDL_QUIT ) {
 				run = false;
 			}
-
 			render.draw_frame(match);
 		}
 	}

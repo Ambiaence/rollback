@@ -8,6 +8,7 @@ struct Position {
 
 class Player {
 	public:
+		Player();
 		Player(float, float);
 		Position position;
 };
@@ -15,6 +16,6 @@ class Player {
 class Match {
 	public:
 		Match();
-		Player player_one(-5, 1);
-		Player player_two(5, 1);
+		Player* player_one;
+		Player* player_two;
 };
